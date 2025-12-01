@@ -5,8 +5,8 @@ export default function Header() {
 
    return (
       <header className={styles.a}>
-
-         <Image src="" width={200} height={300} alt="foto" />
+         header
+         <Image src="/Header/1.png" width={200} height={300} alt="foto" />
       </header>
    )
 }

@@ -1,10 +1,10 @@
-import styles from "./Header.module.scss";
+import styles from "./Footer.module.scss";
 
-export default function Header(){
+export default function Footer(){
 
    return(
-      <header className={styles.a}>
-            asdasdasdasdasdasd
-      </header>
+      <footer className={styles.a}>
+            footer
+      </footer>
    )
 }
