@@ -3,12 +3,13 @@
    font-family: var(--font-roboto), sans-serif;
    text-transform: capitalize;
 
-   max-width: calc(1920px - var(--scrollbar-width));
+   // max-width: calc(1920px - var(--scrollbar-width));
    overflow: hidden;
 
 }
 
 * {
-   box-sizing: border-box;
+   text-decoration: none;
 
+   box-sizing: border-box;
 }
