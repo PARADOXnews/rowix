@@ -2,6 +2,7 @@
 import Header from "@/components/Header/Header";
 import styles from "./page.module.scss";
 import Solutions from "@/components/Solutions/Solutions";
+import Services from "@/components/Services/Services";
 
 export default function Home() {
 
@@ -12,7 +13,7 @@ export default function Home() {
 
       <Solutions></Solutions>
 
-      
+      <Services></Services>
     </>
   );
 }
