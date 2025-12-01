@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Roboto_Flex } from "next/font/google";
 import "./globals.scss";
+import MeasureWidth from "@/components/MeasureWidth/MeasureWidth";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,6 +37,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <MeasureWidth />
       <body className={`body ${geistSans.variable} ${roboto.variable} ${geistMono.variable}`}>
         {children}
       </body>

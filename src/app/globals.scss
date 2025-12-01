@@ -1,8 +1,14 @@
-.body {background-color: black;
+.body {
+   background-color: black;
    font-family: var(--font-roboto), sans-serif;
+   text-transform: capitalize;
+
+   max-width: calc(1920px - var(--scrollbar-width));
+   overflow: hidden;
+
 }
 
 * {
    box-sizing: border-box;
-   
+
 }
