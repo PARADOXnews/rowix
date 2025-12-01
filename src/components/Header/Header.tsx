@@ -1,10 +1,10 @@
 import styles from "./Header.module.scss";
 
-export default function Header(){
+export default function Header() {
 
-   return(
+   return (
       <header className={styles.a}>
-            asdasdasdasdasdasd
+         {}
       </header>
    )
 }
