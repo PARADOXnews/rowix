@@ -4,8 +4,8 @@
    text-transform: capitalize;
 
    max-width: calc(1920px - var(--scrollbar-width));
-   overflow: hidden;
-
+   overflow-x: hidden;
+   padding:16px 24px;
 }
 
 * {
