@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./Solutions.module.scss";
+import "../../../colors/default.scss"
 
 export default function Solutions() {
 
@@ -10,7 +11,7 @@ export default function Solutions() {
       <section className={styles.container}>
 
          <div className={styles.left}>
-            <div>
+            <div className={`cflex samoci`}>
 
                <div className={styles.logo}>
                   <h4 className={styles.h4}>Digital Solutions </h4>
