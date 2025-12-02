@@ -1,2 +1,11 @@
 @use "../../../colors/colors" as *;
 
+.container{
+   width:100%;
+}
+
+.service  h2{
+   font-size:30px;
+   font-weight: $medium;
+   color:$font-white;
+}
