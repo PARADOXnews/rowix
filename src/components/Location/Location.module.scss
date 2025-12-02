@@ -1,11 +1,70 @@
 @use "../../../colors/colors" as *;
 
-.container{
-   width:100%;
+.container {
+  width: 100%;
 }
 
-.service  h2{
-   font-size:30px;
-   font-weight: $medium;
-   color:$font-white;
+.left {
+  max-width: 579px;
+  width: 100%;
+  background-color: $dark1;
+  border-radius: 14px;
+  padding: 60px 40px;
+
+  & p {
+    color: $dark3;
+    font-size: 18px;
+  }
+}
+
+.service h2 {
+  font-size: 30px;
+  font-weight: $medium;
+  color: $font-white;
+}
+
+.technologies {
+  flex-wrap: wrap;
+}
+
+.technologies p {
+  font-size: 16px;
+  color: $font-gray;
+  padding: 10px 16px;
+  border-radius: 45px;
+  background-color: $dark4;
+}
+
+.items {
+  background-color: $dark1;
+  padding: 40px;
+  border-radius: 16px;
+  height: 225px;
+}
+
+.items h3 {
+  color: white;
+  font-size: 18px;
+  font-weight: $medium;
+}
+
+.members {
+  background-color: $dark1;
+  border-radius: 14px;
+  padding: 20px 0;
+}
+
+.members h4 {
+  color: white;
+  font-size: 18px;
+  font-weight: $medium;
+}
+
+.button {
+  background-color: $orange;
+  color: $dark1;
+  width: 100%;
+  padding: 20px 0;
+  border-radius: 12px;
+  font-size: 18px;
 }

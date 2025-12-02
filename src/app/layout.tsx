@@ -9,10 +9,10 @@ const geistSans = Geist({
 });
 
 const roboto = Roboto_Flex({
-  subsets: ['latin'],
-  variable: '--font-roboto',
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-  style: ['normal'],
+  subsets: ["latin"],
+  variable: "--font-roboto",
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  style: ["normal"],
 });
 
 const geistMono = Geist_Mono({
@@ -29,16 +29,12 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-
-
-
-
-
-
   return (
     <html lang="en">
       <MeasureWidth />
-      <body className={`body ${geistSans.variable} ${roboto.variable} ${geistMono.variable}`}>
+      <body
+        className={`body ${geistSans.variable} ${roboto.variable} ${geistMono.variable}`}
+      >
         {children}
       </body>
     </html>

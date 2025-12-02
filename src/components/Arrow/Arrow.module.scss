@@ -1,16 +1,15 @@
 @use "../../../colors/colors" as *;
 
-
 .arrow {
-   cursor:pointer;
+  cursor: pointer;
 }
 
-.h3{
-   font-size:20px;
-   font-weight: $medium;
-   color:$font-white;
-   text-transform: uppercase;
-   opacity: 0.75;
-   letter-spacing: 1px;
-   word-spacing: 5px;
+.h3 {
+  font-size: 20px;
+  font-weight: $medium;
+  color: $font-white;
+  text-transform: uppercase;
+  opacity: 0.75;
+  letter-spacing: 1px;
+  word-spacing: 5px;
 }

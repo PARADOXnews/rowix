@@ -6,18 +6,13 @@ import Services from "@/components/Services/Services";
 import Location from "@/components/Location/Location";
 
 export default function Home() {
-
-
   return (
     <div className={styles.container}>
-      <Header></Header>
+      {/* <Header></Header>
       <Solutions></Solutions>
-      <Services></Services>
-
+      <Services></Services> */}
 
       <Location></Location>
-   
-   
     </div>
   );
 }

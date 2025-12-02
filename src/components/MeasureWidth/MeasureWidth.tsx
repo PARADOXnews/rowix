@@ -30,9 +30,18 @@ export default function MeasureWidth() {
       // scrollbar + sidebar
 
       // Set CSS variables for use in styles
-      document.documentElement.style.setProperty("--scrollbar-width", `${scrollbarWidth}px`); // scrollbar width
-      document.documentElement.style.setProperty("--sidebar-width", `${sidebarWidthClamped}px`); // opera sidebar width might be buggy
-      document.documentElement.style.setProperty("--total-taken-width", `${totalTaken}px`); // just scrollbar + sidebar
+      document.documentElement.style.setProperty(
+        "--scrollbar-width",
+        `${scrollbarWidth}px`,
+      ); // scrollbar width
+      document.documentElement.style.setProperty(
+        "--sidebar-width",
+        `${sidebarWidthClamped}px`,
+      ); // opera sidebar width might be buggy
+      document.documentElement.style.setProperty(
+        "--total-taken-width",
+        `${totalTaken}px`,
+      ); // just scrollbar + sidebar
     };
 
     // Initial measurement on mount
