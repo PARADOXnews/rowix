@@ -1,10 +1,10 @@
 //
 * {
-   box-sizing: border-box;
-   text-transform: capitalize;
-   margin: 0;
-   padding: 0;
-   border: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 
@@ -75,6 +75,11 @@
   gap: 54px;
 }
 
+.ormocdati {
+  display: flex;
+  gap: 50px;
+}
+
 .ormocdarva {
   display: flex;
   gap: 48px;
@@ -133,6 +138,11 @@
 .teqsvmeti {
   display: flex;
   gap: 16px;
+}
+
+.totxmeti {
+  display: flex;
+  gap: 14px;
 }
 
 .tormeti {

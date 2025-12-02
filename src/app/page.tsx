@@ -8,12 +8,14 @@ export default function Home() {
 
 
   return (
-    <>
+    <div className={styles.container}>
+    
       <Header></Header>
+
 
       <Solutions></Solutions>
 
       <Services></Services>
-    </>
+    </div>
   );
 }
