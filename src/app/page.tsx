@@ -12,7 +12,7 @@ export default function Home() {
       <Solutions></Solutions>
       <Services></Services> */}
 
-      <Location></Location>
+      {/* <Location></Location> */}
     </div>
   );
 }

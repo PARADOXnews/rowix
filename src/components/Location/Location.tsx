@@ -7,7 +7,7 @@ export default function () {
   return (
     <section className={`cflex oci ` + styles.container}>
       <Title title="our works" />
-      <div className={`oci cflex `}>
+      <div className={`oci  `}>
         <div className={`cflex ormoci ` + styles.left}>
           <div className="jcb aic">
             <div className={`totxmeti aic ` + styles.service}>
@@ -47,7 +47,7 @@ export default function () {
               <p>firebase</p>
               <p>redux</p>
               <p>rest api</p>
-              <p style={{ display: "block" }}>mongoDB</p>
+              <p>mongoDB</p>
             </div>
           </div>
 
@@ -67,11 +67,11 @@ export default function () {
 
 
 
-      <div className={`oci cflex `}>
+      <div className={`oci  `}>
         <div className={`cflex ormoci ` + styles.left}>
           <div className="jcb aic">
             <div className={`totxmeti aic ` + styles.service}>
-              <Image src="/Location/5.png" width={66} height={66} alt="logo" />
+              <Image src="/Location/4.png" width={66} height={66} alt="logo" />
               <h2>zenith fitness app</h2>
             </div>
             <div className="">
@@ -107,7 +107,7 @@ export default function () {
               <p>php</p>
               <p>Html 5</p>
               <p>css3</p>
-              <p style={{ display: "block" }}>javascript</p>
+              <p>javascript</p>
             </div>
           </div>
 
