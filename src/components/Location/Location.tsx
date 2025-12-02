@@ -24,8 +24,8 @@ export default function () {
 
                   </div>
                </div>
-               <Image src={"/ServiceCard/arrow.png"} width={195} height={52} alt="logo" />
-               <Image src={"/ServiceCard/arrow.png"} width={195} height={52} alt="logo" />
+               <Image src={"/Location/text1.png"} width={195} height={52} alt="logo" />
+               <Image src={"/Location/text2.png"} width={195} height={52} alt="logo" />
                <p></p>
             </div>
 
