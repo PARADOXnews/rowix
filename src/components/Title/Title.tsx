@@ -13,6 +13,8 @@ export default function ({ title, subHeader }: Props) {
 
 
    return (
+
+      
       <div className={`jcb aic` + styles.title}>
          <h1 className={styles.h1}>{title}</h1>
          {subHeader &&
