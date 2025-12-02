@@ -1,5 +1,6 @@
 import styles from "./Services.module.scss";
 import ServiceCard from "../ServiceCard/ServiceCard";
+import Title from "../Title/Title";
 import "../../../colors/default.scss"
 
 
@@ -9,7 +10,7 @@ export default function Services() {
 
    return (
       <section className={`cflex oci ${styles.container}`}>
-         <h1>our services</h1>
+         <Title title="our services" />
          <div className="cflex oci">
             <div className="oci">
 
