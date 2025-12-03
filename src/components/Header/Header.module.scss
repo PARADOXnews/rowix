@@ -1,7 +1,6 @@
 @use "../../../colors/colors" as *;
 
 .header {
-
    width: 100%;
    display: flex;
    justify-content: center;
@@ -64,7 +63,6 @@
    align-items: center;
 }
 
-
 .menu a {
    padding: 18px 24px;
    border-radius: 12px;
@@ -78,22 +76,20 @@
    transition: background 0.2s;
 
    &:hover {
-      color: $skin;
-      background-color: #1a1a1a;
+      background-color: #ef764e;
+      color: $font-white;
    }
 }
 
 
-
-/* Home */
-/* Contact Us */
-.menu li:nth-child(7) a {
-   background-color: #CE7D63; // ferebi cvaldashi sheinaxe
-   color: #0F0F0F; // Contact Us text color stays default
+.menu li:last-child a {
+   background-color: #CE7D63;
+   color: #0F0F0F;
    font-size: 16px;
 
-}
+   &:hover {
+      background-color: #ef764e;
+      color: $font-white;
+   }
 
-.menu li:nth-child(7) a:hover {
-   background-color: #1a1a1a;
 }

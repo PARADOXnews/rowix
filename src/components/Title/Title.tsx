@@ -8,7 +8,7 @@ type Props = {
    subHeader?: string;
 }
 
-export default function ({ title, subHeader }: Props) {
+export default function Title({ title, subHeader }: Props) {
 
 
 

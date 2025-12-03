@@ -1,173 +1,173 @@
-//
+/* GLOBAL RESET */
 * {
-  box-sizing: border-box;
-  text-transform: capitalize;
-  margin: 0;
-  padding: 0;
-  border: 0;
+  box-sizing: border-box;     /* includes padding & border inside width/height */
+  text-transform: capitalize; /* makes first letter of each word uppercase */
+  margin: 0;                  /* removes all default outside spacing */
+  padding: 0;                 /* removes all default inside spacing */
+  border: 0;                  /* removes all borders */
 }
 
 
-
+/* FLEX HELPERS */
 .dflex {
-  display: flex;
+  display: flex;              /* enables flexbox layout (horizontal by default) */
 }
 
 .cflex {
-  display: flex;
-  flex-direction: column;
+  display: flex;              /* flexbox layout */
+  flex-direction: column;     /* stacks children vertically */
 }
 
 .ais {
   display: flex;
-  align-items: flex-start;
+  align-items: flex-start;    /* aligns children to the top (cross-axis) */
 }
 
 .aie {
   display: flex;
-  align-items: flex-end;
+  align-items: flex-end;      /* aligns children to the bottom */
 }
 
 .aic {
   display: flex;
-  align-items: center;
+  align-items: center;        /* vertically centers items */
 }
 
 .jcs {
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-start; /* aligns items to the left (main axis) */
 }
 
 .jce {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-end;   /* aligns items to the right */
 }
 
 .jcc {
   display: flex;
-  justify-content: center;
+  justify-content: center;     /* centers items horizontally */
 }
 
 .jcb {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* pushes items to far left & far right */
 }
 
-/* numbers */
+
+/* GAP HELPERS (Georgian names = pixel gaps) */
+/* each class defines a display:flex + space between elements */
 
 .samocdaotxi {
   display: flex;
-  gap: 64px;
+  gap: 64px;                  /* 64px space between elements */
 }
 
 .samoci {
   display: flex;
-  gap: 60px;
+  gap: 60px;                  /* 60px gap */
 }
 
 .ormocdatvrameti {
   display: flex;
-  gap: 58px;
+  gap: 58px;                  /* 58px gap */
 }
 
 .ormocdatotxmeti {
   display: flex;
-  gap: 54px;
+  gap: 54px;                  /* 54px gap */
 }
 
 .ormocdati {
   display: flex;
-  gap: 50px;
+  gap: 50px;                  /* 50px gap */
 }
 
 .ormocdarva {
   display: flex;
-  gap: 48px;
+  gap: 48px;                  /* 48px gap */
 }
 
 .ormoci {
   display: flex;
-  gap: 40px;
+  gap: 40px;                  /* 40px gap */
 }
 
 .ocdatvrameti {
   display: flex;
-  gap: 38px;
+  gap: 38px;                  /* 38px gap */
 }
 
 .ocdateqsvmeti {
   display: flex;
-  gap: 36px;
+  gap: 36px;                  /* 36px gap */
 }
 
 .ocdatotxmeti {
   display: flex;
-  gap: 34px;
+  gap: 34px;                  /* 34px gap */
 }
 
 .ocdatormeti {
   display: flex;
-  gap: 32px;
+  gap: 32px;                  /* 32px gap */
 }
 
 .ocdaati {
   display: flex;
-  gap: 30px;
+  gap: 30px;                  /* 30px gap */
 }
 
 .ocdaxuti {
   display: flex;
-  gap: 25px;
+  gap: 25px;                  /* 25px gap */
 }
 
 .ocdaotxi {
   display: flex;
-  gap: 24px;
+  gap: 24px;                  /* 24px gap */
 }
 
 .oci {
   display: flex;
-  gap: 20px;
+  gap: 20px;                  /* 20px gap */
 }
 
 .tvrameti {
   display: flex;
-  gap: 18px;
+  gap: 18px;                  /* 18px gap */
 }
 
 .teqsvmeti {
   display: flex;
-  gap: 16px;
+  gap: 16px;                  /* 16px gap */
 }
 
 .totxmeti {
   display: flex;
-  gap: 14px;
+ gap: 14px;                   /* 14px gap */
 }
 
 .tormeti {
   display: flex;
-  gap: 12px;
+  gap: 12px;                  /* 12px gap */
 }
 
 .ati {
   display: flex;
-  gap: 10px;
+  gap: 10px;                  /* 10px gap */
 }
 
 .rva {
   display: flex;
-  gap: 8px;
+  gap: 8px;                   /* 8px gap */
 }
 
 .eqvsi {
   display: flex;
-  gap: 6px;
+  gap: 6px;                   /* 6px gap */
 }
 
 .otxi {
   display: flex;
-  gap: 4px;
+  gap: 4px;                   /* 4px gap */
 }
-
-/* pad */
