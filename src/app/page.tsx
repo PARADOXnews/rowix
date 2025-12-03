@@ -15,7 +15,6 @@ export default function Home() {
       <Solutions></Solutions>
       <Services></Services> 
 
-      <Digital></Digital>
 
 
       <Services></Services>
@@ -25,12 +24,12 @@ export default function Home() {
       <Questions></Questions>
 
 
-    
 
 
 
-     
-        
+
+
+
       <Footer></Footer>
 
     </div>
