@@ -1,0 +1,127 @@
+@use "../../../colors/colors" as *;
+
+.container {
+  width: 100%;
+}
+
+.touch {
+  background-color: $orange;
+  padding: 0 80px;
+  border-radius: 20px;
+  height: 305px;
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: $medium;
+    color: $dark06;
+    max-width: 1187px;
+    width: 100%;
+  }
+
+  p {
+    font-size: 18px;
+    color: $dark5;
+    max-width: 1187px;
+    width: 100%;
+  }
+
+
+
+  & img {
+    cursor: pointer;
+  }
+}
+
+.header {
+  padding-bottom: 12px;
+  font-size: 22px;
+  font-weight: $bold;
+  color: $orange90;
+}
+
+.footer {
+  max-width: 1053px;
+  width: 100%;
+}
+
+.menu {
+  height: 341px;
+  padding: 60px;
+  background-color: $dark1;
+  border-radius: 20px;
+}
+
+.footer ul {
+  gap: 18px;
+}
+
+.footer a {
+  color: $dark3;
+  font-size: 18px;
+
+}
+
+.footer .button {
+  background-color: $dark5;
+  height: 32px;
+  padding: 0 12px;
+  border-radius: 6px;
+  color: $font-gray80;
+  border: 1px solid $dark20;
+}
+
+.mid {
+  padding: 50px;
+  border-radius: 16px;
+  background-color: $dark1;
+  height: 182px;
+}
+
+.mid p {
+  font-size: 18px;
+  color: $dark2;
+  font-weight: $regular;
+  text-transform: uppercase;
+
+}
+
+.mid h2 {
+  font-size: 30px;
+  color: $font-white;
+  font-weight: $medium;
+  text-transform: uppercase;
+}
+
+
+.mail {
+  max-width: 466px;
+  width: 100%;
+  height: 63px;
+}
+
+.mail input {
+  color: $dark2;
+  background-color: inherit;
+  border-radius: 8px;
+  border-bottom: 1px solid $dark5;
+  width: 100%;
+  max-width: 394px;
+  height: 63px;
+  padding: 0 20px;
+}
+
+
+
+.copyright {
+  padding: 50px;
+  border-radius: 16px;
+  background-color: $dark1;
+  height: 127px;
+}
+
+.copyright p {
+  color:$dark3;
+  font-weight: $regular;
+  font-size: 18px;
+}

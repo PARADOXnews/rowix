@@ -1,0 +1,14 @@
+@use "../../../colors/colors" as *;
+
+.container {
+  width: 100%;
+  padding: 40px 60px;
+  background-color: $dark1;
+  border-radius: 16px;;
+}
+
+.container h3 {
+  color: $font-white;
+  font-weight: $medium;
+  font-size: 22px;
+}
