@@ -10,9 +10,12 @@ export default function Home() {
     <div className={styles.container}>
       {/* <Header></Header>
       <Solutions></Solutions>
-      <Services></Services> */}
+      <Services></Services> 
 
-      {/* <Location></Location> */}
+      <Location></Location> */}
+
+
+
     </div>
   );
 }
