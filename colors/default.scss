@@ -1,173 +1,171 @@
-/* GLOBAL RESET */
+//
 * {
-  box-sizing: border-box;     /* includes padding & border inside width/height */
-  text-transform: capitalize; /* makes first letter of each word uppercase */
-  margin: 0;                  /* removes all default outside spacing */
-  padding: 0;                 /* removes all default inside spacing */
-  border: 0;                  /* removes all borders */
+  box-sizing: border-box;
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
-
-/* FLEX HELPERS */
 .dflex {
-  display: flex;              /* enables flexbox layout (horizontal by default) */
+  display: flex;
 }
 
 .cflex {
-  display: flex;              /* flexbox layout */
-  flex-direction: column;     /* stacks children vertically */
+  display: flex;
+  flex-direction: column;
 }
 
 .ais {
   display: flex;
-  align-items: flex-start;    /* aligns children to the top (cross-axis) */
+  align-items: flex-start;
 }
 
 .aie {
   display: flex;
-  align-items: flex-end;      /* aligns children to the bottom */
+  align-items: flex-end;
 }
 
 .aic {
   display: flex;
-  align-items: center;        /* vertically centers items */
+  align-items: center;
 }
 
 .jcs {
   display: flex;
-  justify-content: flex-start; /* aligns items to the left (main axis) */
+  justify-content: flex-start;
 }
 
 .jce {
   display: flex;
-  justify-content: flex-end;   /* aligns items to the right */
+  justify-content: flex-end;
 }
 
 .jcc {
   display: flex;
-  justify-content: center;     /* centers items horizontally */
+  justify-content: center;
 }
 
 .jcb {
   display: flex;
-  justify-content: space-between; /* pushes items to far left & far right */
+  justify-content: space-between;
 }
 
-
-/* GAP HELPERS (Georgian names = pixel gaps) */
-/* each class defines a display:flex + space between elements */
+/* numbers */
 
 .samocdaotxi {
   display: flex;
-  gap: 64px;                  /* 64px space between elements */
+  gap: 64px;
 }
 
 .samoci {
   display: flex;
-  gap: 60px;                  /* 60px gap */
+  gap: 60px;
 }
 
 .ormocdatvrameti {
   display: flex;
-  gap: 58px;                  /* 58px gap */
+  gap: 58px;
 }
 
 .ormocdatotxmeti {
   display: flex;
-  gap: 54px;                  /* 54px gap */
+  gap: 54px;
 }
 
 .ormocdati {
   display: flex;
-  gap: 50px;                  /* 50px gap */
+  gap: 50px;
 }
 
 .ormocdarva {
   display: flex;
-  gap: 48px;                  /* 48px gap */
+  gap: 48px;
 }
 
 .ormoci {
   display: flex;
-  gap: 40px;                  /* 40px gap */
+  gap: 40px;
 }
 
 .ocdatvrameti {
   display: flex;
-  gap: 38px;                  /* 38px gap */
+  gap: 38px;
 }
 
 .ocdateqsvmeti {
   display: flex;
-  gap: 36px;                  /* 36px gap */
+  gap: 36px;
 }
 
 .ocdatotxmeti {
   display: flex;
-  gap: 34px;                  /* 34px gap */
+  gap: 34px;
 }
 
 .ocdatormeti {
   display: flex;
-  gap: 32px;                  /* 32px gap */
+  gap: 32px;
 }
 
 .ocdaati {
   display: flex;
-  gap: 30px;                  /* 30px gap */
+  gap: 30px;
 }
 
 .ocdaxuti {
   display: flex;
-  gap: 25px;                  /* 25px gap */
+  gap: 25px;
 }
 
 .ocdaotxi {
   display: flex;
-  gap: 24px;                  /* 24px gap */
+  gap: 24px;
 }
 
 .oci {
   display: flex;
-  gap: 20px;                  /* 20px gap */
+  gap: 20px;
 }
 
 .tvrameti {
   display: flex;
-  gap: 18px;                  /* 18px gap */
+  gap: 18px;
 }
 
 .teqsvmeti {
   display: flex;
-  gap: 16px;                  /* 16px gap */
+  gap: 16px;
 }
 
 .totxmeti {
   display: flex;
- gap: 14px;                   /* 14px gap */
+  gap: 14px;
 }
 
 .tormeti {
   display: flex;
-  gap: 12px;                  /* 12px gap */
+  gap: 12px;
 }
 
 .ati {
   display: flex;
-  gap: 10px;                  /* 10px gap */
+  gap: 10px;
 }
 
 .rva {
   display: flex;
-  gap: 8px;                   /* 8px gap */
+  gap: 8px;
 }
 
 .eqvsi {
   display: flex;
-  gap: 6px;                   /* 6px gap */
+  gap: 6px;
 }
 
 .otxi {
   display: flex;
-  gap: 4px;                   /* 4px gap */
+  gap: 4px;
 }
+
+/* pad */

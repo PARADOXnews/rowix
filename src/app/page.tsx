@@ -14,6 +14,13 @@ export default function Home() {
       <Header></Header>
       <Solutions></Solutions>
       <Services></Services> 
+
+      <Digital></Digital>
+
+
+      <Services></Services>
+
+
       <Location></Location>
       <Questions></Questions>
 
