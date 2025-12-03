@@ -38,7 +38,7 @@ export default function Solutions() {
           <h4>Estatein Real Estate</h4>
           <p>Web Development.</p>
         </div>
-      </div>
+      </div> 
     </section>
   );
 }
