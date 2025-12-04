@@ -6,25 +6,21 @@ import Services from "@/components/Services/Services";
 import Location from "@/components/Location/Location";
 import Questions from "@/components/Questions/Questions";
 import Footer from "@/components/Footer/Footer";
-
+import "../../colors/default.scss"
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Header></Header>
-      <Solutions></Solutions>
-      <Services></Services> 
+      
+      {/* <div className={`cflex oci `}>
+        <Header></Header>
+        <Solutions></Solutions>
+      </div>
+
+      <Services></Services>
       <Location></Location>
       <Questions></Questions>
-
-
-    
-
-
-
-     
-        
-      <Footer></Footer>
+      <Footer></Footer> */}
 
     </div>
   );

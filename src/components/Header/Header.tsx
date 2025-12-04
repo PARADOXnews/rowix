@@ -1,8 +1,7 @@
-"use client";
-
 import Image from "next/image";
 import styles from "./Header.module.scss";
 import Link from "next/link";
+import "../../../colors/default.scss";
 
 export default function Header() {
   return (
@@ -13,7 +12,7 @@ export default function Header() {
         </div>
 
         <div className={styles.buttonContainer}>
-          <ul className={styles.menu}>
+          <ul className={`jce `+ styles.menu}>
             <li>
               <Link href="#">Home</Link>
             </li>

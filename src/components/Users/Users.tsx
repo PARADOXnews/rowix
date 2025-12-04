@@ -16,7 +16,7 @@ export default function Users() {
   return (
     <div className={styles.statsRow}> 
       {statsData.map((item, i) => (  // i iwyeba 0 da midis bolos ramxelac statsData cvladi  aris
-        <div key={i} className={`aic `+  styles.statBox}>
+        <div key={i} className={`cflex jcc aic `+  styles.statBox}>
           <span className={styles.title}>{item.title}</span>
           <span className={styles.value}>{item.value}</span>
         </div>
