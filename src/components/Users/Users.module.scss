@@ -1,0 +1,57 @@
+@use "../../../colors/colors" as *;
+
+.statsRow {
+  display: flex;
+  gap: 20px; /* space between boxes */
+  justify-content: space-between;
+}
+
+.statBox {
+  width: 280px;            /* FIXED WIDTH */
+  padding: 30px 20px;      /* your required padding */
+  height: auto;            /* Hug content */
+  background: $dark1;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;  /* vertical flow */
+  gap: 20px;               /* space between title + number */
+  border: 1px solid #1e1e1e;
+}
+
+.title {
+  font-size: 14px;
+  color: #8f8f8f;
+}
+
+.value {
+  font-size: 32px;
+  color: #e4b3a7; /* your skin color shade */
+  font-weight: 600;
+}
+
+/* Last Box (with arrow) */
+.statBoxLast {
+  width: 280px;
+  padding: 30px 20px;
+  background: $dark1;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #1e1e1e;
+}
+
+.iconCircle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #141414;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.knowMore {
+  color: #e4b3a7;
+  font-size: 16px;
+}

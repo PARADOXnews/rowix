@@ -75,20 +75,21 @@
 
   transition: background 0.2s;
 
-  &:hover {
-    color: $skin;
-    background-color: #1a1a1a;
-  }
+   &:hover {
+      background-color: #ef764e;
+      color: $font-white;
+   }
 }
 
-/* Home */
-/* Contact Us */
-.menu li:nth-child(7) a {
-  background-color: #ce7d63; // ferebi cvaldashi sheinaxe
-  color: #0f0f0f; // Contact Us text color stays default
-  font-size: 16px;
-}
 
-.menu li:nth-child(7) a:hover {
-  background-color: #1a1a1a;
+.menu li:last-child a {
+   background-color: #CE7D63;
+   color: #0F0F0F;
+   font-size: 16px;
+
+   &:hover {
+      background-color: #ef764e;
+      color: $font-white;
+   }
+
 }
