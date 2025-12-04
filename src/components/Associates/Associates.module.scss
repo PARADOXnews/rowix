@@ -1,0 +1,25 @@
+@use "../../../colors/colors" as *;
+
+.container {
+  width: 100%;
+  max-width: 430px;
+  height: 120px;
+  background-color: $dark4;
+  border-radius: 0 0 14px 14px;
+padding:0 40px;
+}
+
+.container h2 {
+  font-size: 20px;
+  font-weight: $medium;
+  line-height: 1.5;
+  color: $font-gray;
+}
+
+.container p {
+  font-size: 18px;
+  font-weight: $regular;
+  line-height: 1.5;
+  color: $dark3;
+  ;
+}

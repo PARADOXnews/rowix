@@ -12,7 +12,7 @@ export default function Digital() {
    return (
       <section className={`cflex oci ` + styles.container}>
          <Title title="Reasons to Choose NexGen for Your Digital Journey" />
-         <div className={`jcb `}>
+         <div className={`jcb ati `}>
             <DigitalCard title="Expertise in Cutting-Edge Technologies" desc="NexGen ensures your projects are powered by state-of-the-art technologies, guaranteeing innovation and future-proof solutions." />
             <DigitalCard title="Proven Track Record of Success" desc="NexGen demonstrates a consistent ability to meet and exceed client expectations, providing reliable and effective web solutions tailored to diverse needs." />
             <DigitalCard title="Client-Centric Approach" desc="At NexGen, we prioritize understanding our clients' unique requirements, fostering transparent communication throughout the development process." />
