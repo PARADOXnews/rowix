@@ -1,11 +1,6 @@
 import Image from "next/image";
 import styles from "./Solutions.module.scss";
-<<<<<<< HEAD
 import "../../../colors/default.scss";
-import "../../../colors/default.scss"
-import Users from "../Users/Users";
-=======
->>>>>>> parent of dd1a09b (d)
 
 export default function Solutions() {
   return (
@@ -39,7 +34,6 @@ export default function Solutions() {
           alt="logo"
         />
 
-<<<<<<< HEAD
         <div className={`cflex tormeti ` + styles.state}>
           <h4>Estatein Real Estate</h4>
           <p>Web Development.</p>
@@ -48,25 +42,3 @@ export default function Solutions() {
     </section>
   );
 }
-=======
-
-   return (
-
-      <section className={styles.container}>
-
-         <div className={styles.left}>
-            <div>
-
-               <div className={styles.logo}>
-                  <h4 className={styles.h4}>Digital Solutions </h4>
-                  <Image src="/Solutions/button.png" width={266} height={77} alt="logo" />
-               </div>
-               <h4 className={styles.h4}>That Drive Success</h4>
-               <p>At NexGen, we believe in the transformative power of digital solutions. Our team of experts is dedicated to helping businesses like yours thrive in the fast-paced digital landscape.</p>
-            </div>
-            <Image src="/Solutions/text.png"  width={1167} height={70} alt="logo" />
-         </div>
-      </section>
-   )
-}
->>>>>>> parent of dd1a09b (d)
