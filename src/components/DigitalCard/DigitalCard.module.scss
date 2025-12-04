@@ -2,4 +2,26 @@
 
 .container {
    width:100%;
+   max-width: 430px;
+   padding:40px;
+   background-color: $dark1;
+   border-radius: 14px;
+   height:398px;
+}
+
+.container h2{
+   font-size:30px;
+   color:$font-white;
+   font-weight: $medium;
+   text-transform: uppercase;
+line-height: 1.5;
+
+}
+
+
+.container p {
+   color:$dark3;
+   font-size: 18px;
+   font-weight: $regular;
+line-height: 1.5;
 }
