@@ -8,7 +8,7 @@ import Location from "@/components/Location/Location";
 export default function Home() {
   return (
     <div className={styles.container}>
-      {/* <Header></Header>
+      <Header></Header>
       <Solutions></Solutions>
       <Services></Services> 
 
@@ -28,13 +28,11 @@ export default function Home() {
 
 
       <Footer></Footer>
-=======
       <Services></Services> 
 
-      <Location></Location> */}
+      <Location></Location>
 
 
->>>>>>> parent of 683b488 (a)
 
     </div>
   );
