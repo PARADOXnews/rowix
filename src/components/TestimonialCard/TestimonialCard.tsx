@@ -21,9 +21,7 @@ export default function TestimonialCard({ title, desc,name,role,img }: Props) {
         <p>{desc}</p>
       </div>
       <Associates name={name} role={role} img={img} />
-      {/* <Associates name="Wade Warren" role="Art Director" img="2" />
-      <Associates name="Lisa Williams" role="CEO Of HealthTech" img="3" />
-      <Associates name="Jennifer Lee" role="COO of Foodie Haven" img="4" /> */}
+
     </div>
   )
 }
